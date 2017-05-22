@@ -5,4 +5,4 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
 MAINTAINER  Li ZHOU lzh@cpan.org
 RUN cpan -T AnyEvent::AIO Crypt::NaCl::Sodium EV IO::AIO Net::Shadowsocks
 EXPOSE 1491
-CMD ssserver.pl -s localhost -p 1491 -k fuckgfw -m spritz
+CMD ssserver.pl -s localhost -p 1491 -k fuckgfw -m aes-128-ctr
