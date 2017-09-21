@@ -608,13 +608,9 @@ Project website https://osdn.net/projects/ssperl/
 
 =head2 new
 
-    The new constructor lets you create a new Net::Shadowsocks::Client object.
+    The new constructor lets you create a new Net::Shadowsocks::Client object or dies on error.
 
-    So no big surprises there...
-
-    Returns a new Net::Shadowsocks::Client or dies on error.
-
-    example use:
+    Example use:
 
     my $foo = Net::Shadowsocks::Client->new(
     local_address => 'localhost',
