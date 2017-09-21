@@ -157,7 +157,7 @@ Net::Shadowsocks is a Perl implementation of the shadowsocks (Chinese: 影梭)
 protocol client and server , Shadowsocks is a secure transport protocol based on
 SOCKS Protocol Version 5 (RFC 1928 ).
 
-1. A total of 35 encryption methods are supported:
+1. A total of 34 encryption methods are supported:
 
         aes-128-cfb aes-128-ctr aes-128-gcm aes-128-ofb
 	aes-192-cfb aes-192-ctr aes-192-gcm aes-192-ofb
