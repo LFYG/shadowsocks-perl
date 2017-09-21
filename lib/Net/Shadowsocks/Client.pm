@@ -608,11 +608,11 @@ Project website https://osdn.net/projects/ssperl/
 
 =head2 new
 
-    The C<new> constructor lets you create a new B<Net::Shadowsocks::Client> object.
+    The new constructor lets you create a new Net::Shadowsocks::Client object.
 
     So no big surprises there...
 
-    Returns a new B<Net::Shadowsocks::Client> or dies on error.
+    Returns a new Net::Shadowsocks::Client or dies on error.
 
     example use:
 
