@@ -746,7 +746,7 @@ Project website https://osdn.net/projects/ssperl/
 
     my $foo = Net::Shadowsocks::Server->new(
     password => "49923641",
-    server => "jp . ssip . club",
+    server => "jp.ssip.club",
     server_port => 23333,
     method => "spritz",
     );
