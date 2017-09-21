@@ -740,13 +740,9 @@ Project website https://osdn.net/projects/ssperl/
 
 =head2 new
 
-    The C<new> constructor lets you create a new B<Net::Shadowsocks::Server> object.
+    The new constructor lets you create a new Net::Shadowsocks::Server object or dies on error.
 
-    So no big surprises there...
-
-    Returns a new B<Net::Shadowsocks::Server> or dies on error.
-
-    example use:
+    Example use:
 
     my $foo = Net::Shadowsocks::Server->new(
     password => "49923641",
